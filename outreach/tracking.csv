@@ -1,0 +1,4 @@
+channel,variant,recipient,contacted_at,response,converted,notes
+r/freelance,short_post,,2026-03-15T13:00:00Z,,,posted
+indiehackers,long_post,,2026-03-15T13:10:00Z,,,posted
+dm,email_template,{example@domain.com},2026-03-15T13:20:00Z,,,
