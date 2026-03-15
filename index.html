@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>InvoiceLink — Instant invoice & payment links for freelancers</title>
+  <meta name="description" content="Create and send invoices and instant payment links in seconds. Built for freelancers and small businesses." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <h1>InvoiceLink</h1>
+      <p class="tag">Create invoices & share secure payment links in seconds — get paid faster.</p>
+      <div class="cta">
+        <input id="email" type="email" placeholder="Your email" aria-label="Your email">
+        <button id="signup">Get early access</button>
+      </div>
+      <p class="note">No credit card. We'll email you when the early demo is ready.</p>
+    </header>
+
+    <section class="features">
+      <article>
+        <h3>One‑click invoice</h3>
+        <p>Create a simple branded invoice and generate a hosted payment link (Stripe-ready).</p>
+      </article>
+      <article>
+        <h3>Share & get paid</h3>
+        <p>Email clients a secure payment link or paste it in chat — they pay with card, you get notified.</p>
+      </article>
+      <article>
+        <h3>PDF & records</h3>
+        <p>Download a PDF, mark paid, and keep a lightweight client list.</p>
+      </article>
+    </section>
+
+    <section class="how">
+      <h2>How it works</h2>
+      <ol>
+        <li>Enter client & line items</li>
+        <li>Generate invoice & payment link</li>
+        <li>Send link — client pays — you mark paid</li>
+      </ol>
+    </section>
+
+    <section class="demo">
+      <h2>Try a quick demo</h2>
+      <div class="demo-card">
+        <div class="invoice-preview">
+          <div class="row"><strong>Acme Ltd</strong><span>Invoice #0001</span></div>
+          <div class="row">Consulting — 3h @ $80/hr <span>$240</span></div>
+          <div class="row total">Total <span>$240</span></div>
+        </div>
+        <div class="demo-actions">
+          <button id="copyLink">Copy demo payment link</button>
+          <button id="openLink">Open demo link</button>
+        </div>
+      </div>
+      <p class="small">This is a demo link (no real payment). Replace with your Stripe integration when ready.</p>
+    </section>
+
+    <footer class="footer">
+      <p>Built by AUsfy — early access list. Read outreach templates in the repo (outreach/).</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
